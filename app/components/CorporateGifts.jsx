@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mainBox from "@/app/assets/images/mainBox.png";
+import mainBox from "@/app/assets/images/mainbox.png";
 import img1 from "@/app/assets/images/img1.png";
 import img2 from "@/app/assets/images/img2.png";
 import img3 from "@/app/assets/images/img3.png";
