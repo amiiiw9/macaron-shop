@@ -13,7 +13,7 @@ export default function Header() {
       {/* Десктоп: оригинальный список — без изменений */}
       <ul className="hidden md:flex container mx-auto justify-between items-center font-semibold text-gray-700 py-4">
         <li>
-          <Link href="/sweetDays">СЛАДКИЕ ДНИ</Link>
+          <Link href="/wedding">СЛАДКИЕ ДНИ</Link>
         </li>
         <li>
           <Link href="/ready">ПОДАРОЧНЫЕ НАБОРЫ</Link>
@@ -48,7 +48,7 @@ export default function Header() {
         <div className="md:hidden bg-white border-t border-gray-100 px-4 pb-4">
           <ul className="flex flex-col space-y-3 font-semibold text-gray-700">
             <li>
-              <Link href="/sweetDays" onClick={() => setMenuOpen(false)}>
+              <Link href="/wedding" onClick={() => setMenuOpen(false)}>
                 СЛАДКИЕ ДНИ
               </Link>
             </li>
